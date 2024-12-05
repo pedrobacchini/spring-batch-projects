@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a91430a-00ca-4a82-817c-9b5caea74023" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/BdPartitionerLocalJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/config/BdPartitionerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/config/ColumnRangePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/job/BdPartitionerLocalJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/reader/BancoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/reader/BancoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/java/com/springbatch/bdpartitionerlocal/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerLocalJob/src/test/java/com/springbatch/bdpartitionerlocal/BdPartitionerLocalJobApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/drop-spring-batch-metadata.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/reset-migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/runs/BdPartitionerRemoteJobApplication Manager.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/runs/BdPartitionerRemoteJobApplication Worker 1.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/runs/BdPartitionerRemoteJobApplication Worker 2.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/BdPartitionerRemoteJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/config/BdPartitionerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/config/ColumnRangePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/config/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/job/BdPartitionerLocalJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/job/ManagerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/job/WorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/reader/BancoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/reader/BancoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/java/com/springbatch/bdremotepartitioner/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BdPartitionerRemoteJob/src/test/java/com/springbatch/bdpartitionerremote/BdPartitionerRemoteJobApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/reset-migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/FaturaCartaoCreditoJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/dominio/CartaoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/dominio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/dominio/FaturaCartaoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/dominio/Transacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/job/FaturaCartaoCreditoJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/listener/ChunkLogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/processor/CarregarDadosClienteProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/reader/FaturaCartaoCreditoReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/reader/LerTransacoesReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/step/FaturaCartaoCreditoStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/java/com/springbatch/faturacartaocredito/writer/BancoFaturaCartaoCreditoWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaturaCartaoCreditoJob/src/test/java/com/springbatch/faturacartaocredito/FaturaCartaoCreditoJobApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.attach_pid16073" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.attach_pid29745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/files/dados_bancarios.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/files/pessoas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/MigracaoDadosJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/job/MigracaoDadosJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/processor/PessoaProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/reader/ArquivoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/reader/ArquivoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/java/com/springbatch/migracaodados/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigracaoDadosJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/files/dados_bancarios.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/files/pessoas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/reset-migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/SimplePartitionerLocalJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/MultiResourcePartitionerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/job/SimplePartitionerJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoDadosBancariosPartitionReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoPessoPartitionReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/DividirArquivoDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/DividirArquivoPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/writer/MultiResourceItemWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplePartitionerLocalJob/src/test/java/com/springbatch/simplepartitionerlocaljob/SimplePartitionerLocalJobApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/.attach_pid29745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/files/dados_bancarios.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/files/pessoas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/files/pessoas_invalidas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/reset-migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/MultithreadingStepApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/job/MultithreadingStepJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/listener/ChunkLogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/processor/PessoaProcessorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/reader/ArquivoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/reader/ArquivoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/writer/ArquivoPessoasInvalidasWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/java/com/springbatch/migracaodados/writer/PessoaClassifierWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultithreadingStep/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/files/dados_bancarios.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/files/pessoas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/ProcessamentoAssincronoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/job/ProcessamentoAssincronoJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/processor/PessoaProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/reader/ArquivoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/reader/ArquivoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/java/com/springbatch/migracaodados/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/META-INF/maven/com.springbatch/MigracaoDadosJob/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/META-INF/maven/com.springbatch/MigracaoDadosJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/ProcessamentoAssincronoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/config/DataSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/dominio/DadosBancarios.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/dominio/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/job/ProcessamentoAssincronoJobConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/processor/PessoaProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/reader/ArquivoDadosBancariosReaderConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/reader/ArquivoPessoaReaderConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/reader/ArquivoPessoaReaderConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/step/MigrarDadosBancariosStepConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/step/MigrarPessoaStepConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/writer/BancoDadosBancariosWriterConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/writer/BancoPessoaWriterConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessamentoAssincrono/target/classes/com/springbatch/migracaodados/writer/BancoPessoaWriterConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/files/dados_bancarios.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/files/pessoas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/files/scripts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/mysqlScripts/01-databases.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/reset-migration.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/SimplePartitionerLocalJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/ArquivoPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/dominio/DadosBancarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/job/SimplePartitionerJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoDadosBancariosReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/ArquivoPessoaReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/reader/CustomArquivoReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/MigrarDadosBancariosStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/step/MigrarPessoaStepConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/writer/BancoDadosBancariosWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/java/com/springbatch/simplepartitionerlocal/writer/BancoPessoaWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimplePartitionerLocalJob/src/test/java/com/springbatch/simplepartitionerlocaljob/SimplePartitionerLocalJobApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pnVqmVWEkFdMgXBg3V1k9qknFn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pedrobacchini/IdeaProjects/Spring Batch Projects",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a91430a-00ca-4a82-817c-9b5caea74023" name="Changes" comment="" />
+      <created>1733402025640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733402025640</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

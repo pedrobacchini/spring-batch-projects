@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  mysqlsrv:
+    image: mysql:8.0.30
+    container_name: mysqlsrv
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+    ports:
+      - "3306:3306"
+    networks:
+      - mysql-compose-network
+    volumes:
+      - ./mysqlScripts:/docker-entrypoint-initdb.d
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    ports:
+      - 8888:8080
+    networks:
+      - mysql-compose-network
+
+networks:
+  mysql-compose-network:
+    driver: bridge
